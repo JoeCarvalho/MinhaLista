@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Cadastro</string>
+<string name="label.produto">Produto </string>
+<string name="label.gravar">Gravar </string>
+<string name="label.preco">Preço </string>
+<string name="label.cancelar">Cancelar </string>
+<string name="label.Voltar">Voltar ao Inicio </string>
+<string name="hint.informe.produto">Informe o Produto </string>
+<string name="label.adicionaProduto">Adicionar Produto </string>
+<string name="label.consultaProduto">Consultar Produto </string>
+<string name="texto_lista">Texto Lista </string>
+
+
+
+<string name="label.TELACONSULTA">T E L A   D E   C O N S U L T A </string>
+<string name="label.PRODUTO">Nome do Produto: </string>
+<string name="label.PRECO">Valor do Produto: </string>
+                
+                
+    
+        
+</resources>

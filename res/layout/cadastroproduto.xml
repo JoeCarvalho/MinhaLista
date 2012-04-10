@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:gravity="center">"
+              
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="@string/label.produto" />    
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+
+        <EditText
+            android:id="@+id/ednome"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.47"
+            android:hint="@string/hint.informe.produto" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">"
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:gravity="left"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="@string/label.preco"/>
+ 
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+
+        <EditText
+            android:id="@+id/edpreco"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.51"
+            android:hint="@string/label.preco"
+            android:numeric="decimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#999999"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/btgravar"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="@string/label.gravar"/>
+
+
+        <Button
+            android:id="@+addproduto/btcancelar"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="@string/label.cancelar"/>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btMenuPrincipal"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label.Voltar" />
+
+</LinearLayout>

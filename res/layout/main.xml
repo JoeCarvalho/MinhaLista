@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">"
+    <Spinner
+        android:id="@+main/splista"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/texto_lista"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:id="@+main/layout">"
+        <ListView
+            android:id="@+main/lista"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:smoothScrollbar ="true"
+            android:drawSelectorOnTop="true"
+            android:scrollingCache="true"
+            android:layout_weight="1"/>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                              android:orientation="horizontal"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content">"
+                     <Button
+                        android:id="@+id/btAdicionarProduto"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+       				    android:text="@string/label.adicionaProduto"/>
+                    <Button
+                        android:id="@+id/btConsultar"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+       				    android:text="@string/label.consultaProduto"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    
+
+
