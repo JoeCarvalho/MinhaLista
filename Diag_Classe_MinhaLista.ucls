@@ -1,0 +1,53 @@
+<class-diagram version="1.0.7" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.wordpress.hilfranjr.CadastroActivity" project="Cadastro" 
+    file="/Cadastro/src/com/wordpress/hilfranjr/CadastroActivity.java" binary="false">    
+    <position height="-1" width="-1" x="102" y="113"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.wordpress.hilfranjr.Registro" project="Cadastro" 
+    file="/Cadastro/src/com/wordpress/hilfranjr/Registro.java" binary="false">    
+    <position height="-1" width="-1" x="104" y="330"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="3">    
+    <bendpoint x="136" y="399"/>    
+    <bendpoint x="254" y="401"/>    
+    <bendpoint x="254" y="315"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="4" name="antReg"/>      
+      <multiplicity id="5" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="6">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="7" name="objRegistro"/>      
+      <multiplicity id="8" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="9">    
+    <bendpoint x="146" y="389"/>    
+    <bendpoint x="226" y="372"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="10" name="proxReg"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
